@@ -1,14 +1,14 @@
-NAME = "ObjectListView2"
+NAME = "wxolv"
 # update following in conf.py, __init__.py and here
-VERSION = "1.0.1"
+VERSION = "1.0.0"
 URL = "https://github.com/eriknystrom/ObjectListView2"
 DOWNLOAD_URL = "https://github.com/eriknystrom/ObjectListView2/releases"
 LICENSE = "wxWindows"
 AUTHOR = "Phillip Piper"
 AUTHOR_EMAIL = "phillip.piper@gmail.com"
-MAINTAINER = "Erik Nystrom"
-MAINTAINER_EMAIL = "Erik.Nystrom87@gmail.com"
-YEAR = 2019
+MAINTAINER = "Robin Boone"
+MAINTAINER_EMAIL = "rboone@sofics.com"
+YEAR = 2023
 DESCRIPTION = "An ObjectListView is a wrapper around the wx.ListCtrl that makes the list control easier to use. This is an upload of olv 1.3.2 from https://bitbucket.org/wbruhin/objectlistview/"
 
 LONG_DESCRIPTION = \
@@ -54,13 +54,18 @@ CLASSIFIERS = [
     'Topic :: Software Development :: User Interfaces',
 ]
 
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 from setuptools import setup
 
 setup(
     name=NAME,
     version=VERSION,
     description=DESCRIPTION,
-    long_description=LONG_DESCRIPTION,
+    long_description=long_description,
+    long_description_content_type='test/markdown',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
     maintainer=MAINTAINER,

@@ -1,3 +1,22 @@
+Metadata-Version: 2.1
+Name: wxolv
+Version: 1.0.0
+Summary: An ObjectListView is a wrapper around the wx.ListCtrl that makes the list control easier to use. This is an upload of olv 1.3.2 from https://bitbucket.org/wbruhin/objectlistview/
+Home-page: https://github.com/eriknystrom/ObjectListView2
+Download-URL: https://github.com/eriknystrom/ObjectListView2/releases
+Author: Phillip Piper
+Author-email: phillip.piper@gmail.com
+Maintainer: Robin Boone
+Maintainer-email: rboone@sofics.com
+License: wxWindows
+Platform: Many
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: User Interfaces
+Description-Content-Type: test/markdown
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+
 ObjectListView2
 ===============
 

@@ -6,7 +6,7 @@ import sys
 import wx
 from datetime import datetime, date, time
 
-from ObjectListView2.CellEditor import BooleanEditor, DateEditor, DateTimeEditor,\
+from wxolv.CellEditor import BooleanEditor, DateEditor, DateTimeEditor,\
      TimeEditor, IntEditor, FloatEditor, LongEditor
 
 #----------------------------------------------------------------------------

@@ -3,8 +3,8 @@ import wtc
 import wx
 from datetime import datetime, date, time
 
-from ObjectListView2 import ObjectListView, ColumnDefn
-from ObjectListView2.ListCtrlPrinter import *
+from wxolv import ObjectListView, ColumnDefn
+from wxolv.ListCtrlPrinter import *
 
 
 class TestDecorations(unittest.TestCase):

@@ -7,7 +7,19 @@ import time
 
 import six
 
-from ObjectListView2 import ObjectListView, FastObjectListView, VirtualObjectListView, GroupListView, ColumnDefn, EVT_SORT, Filter
+from wxolv import ObjectListView, FastObjectListView, VirtualObjectListView, GroupListView, ColumnDefn, EVT_SORT, Filter
+
+
+class TestDecorations(unittest.TestCase):
+
+    def testInitialState(self):
+        pass
+
+
+class TestBlocks(unittest.TestCase):
+
+    def testInitialState(self):
+        pass
 
 
 class Person:
@@ -19,6 +31,7 @@ class Person:
 
     def age(self):
         return datetime.datetime.now().year - self.birthdate.year
+
 
 personColumns = [
     ("Name", "left", -1, "name"),
