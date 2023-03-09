@@ -7,7 +7,7 @@ import time
 
 import six
 
-from ObjectListView2 import ObjectListView, FastObjectListView, VirtualObjectListView, GroupListView, ColumnDefn, EVT_SORT, Filter
+from wxolv import ObjectListView, FastObjectListView, VirtualObjectListView, GroupListView, ColumnDefn, EVT_SORT, Filter
 
 
 class TestDecorations(unittest.TestCase):
